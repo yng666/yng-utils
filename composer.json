@@ -1,0 +1,31 @@
+{
+	"name": "yng/utils",
+	"type": "library",
+	"license": "Apache-2.0",
+	"homepage": "https://www.chinaqe.cn",
+	"authors": [
+		{
+			"name": "yng",
+			"homepage": "https://www.chinaqe.cn"
+		}
+	],
+    "autoload": {
+		"files": [
+			"src/helpers.php"
+		],
+		"psr-4": {
+			"Yng\\Utils\\": "src/"
+		}
+    },
+
+    "require": {
+      	"php": "^7.4|^8.0"
+    },
+	"suggest": {
+		"ramsey/uuid": "^4.2",
+		"voku/portable-ascii": "^1.5",
+		"league/commonmark": "^2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
